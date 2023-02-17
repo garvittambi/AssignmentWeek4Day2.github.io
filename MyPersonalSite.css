@@ -1,0 +1,46 @@
+img{
+    border-radius: 50%;
+}
+table{
+    display :flex;
+    box-sizing: border-box;
+    float:left;
+    width: 49%;
+}
+.education{
+  text-transform: uppercase;
+}
+.row {
+    margin-left:-5px;
+    display: flex;
+    margin-right:-5px;
+  }
+    
+  .column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: flex;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 16px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }

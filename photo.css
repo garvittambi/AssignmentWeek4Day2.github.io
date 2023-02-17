@@ -1,0 +1,17 @@
+.column {
+    height: auto;
+    width: 100%;
+    display: flex;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    height: auto;
+    display: flex;
+    width:100%;
+    float:inline-end;
+  }
+  img{
+    height:50vh;
+    width:100%;
+  }
